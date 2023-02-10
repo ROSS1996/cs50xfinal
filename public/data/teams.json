@@ -1,75 +1,39 @@
 {
-    "teams": [
-      {
-        "name": "Furia",
-        "players": [
-          "Art",
-          "KSCERATO",
-          "Yuurih",
-          "Drop",
-          "Saffee"
-        ]
-      },
-      {
-        "name": "Imperial",
-        "players": [
-          "Fallen",
-          "Boltz",
-          "Chelo",
-          "Jota",
-          "VINI"
-        ]
-      },
-      {
-        "name": "00Nation",
-        "players": [
-          "Coldzera",
-          "Taco",
-          "Dumau",
-          "Latto",
-          "nqz"
-        ]
-      },
-      {
-        "name": "MIBR",
-        "players": [
-          "Exit",
-          "Tuurtle",
-          "HEN1",
-          "Insani",
-          "Brnzan"
-        ]
-      },
-      {
-        "name": "PaiN",
-        "players": [
-          "PKL",
-          "Biguzera",
-          "Hardzao",
-          "Skullz",
-          "Zevy"
-        ]
-      },
-      {
-        "name": "Fluxo",
-        "players": [
-          "Woody",
-          "VSM",
-          "Lucaozy",
-          "Felps",
-          "History"
-        ]
-      },
-      {
-        "name": "O PLANO",
-        "players": [
-          "KNG",
-          "Shz",
-          "Decenty",
-          "Piria",
-          "Lub"
-        ]
-      }
-    ]
-  }
-  
+  "teams": [
+    {
+      "name": "Furia",
+      "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+      "players": ["Art", "KSCERATO", "Yuurih", "Drop", "Saffee"]
+    },
+    {
+      "name": "Imperial",
+      "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
+      "players": ["Fallen", "Boltz", "Chelo", "Jota", "VINI"]
+    },
+    {
+      "name": "00Nation",
+      "logo": "https://img-cdn.hltv.org/teamlogo/-LUi1MZwRXN6fQ_pbha7Ke.png?ixlib=java-2.1.0&w=50&s=c030a8759455d70338739d5643e39172",
+      "players": ["Coldzera", "Taco", "Dumau", "Latto", "nqz"]
+    },
+    {
+      "name": "MIBR",
+      "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?ixlib=java-2.1.0&w=50&s=80a1e479dd1b15b974d3e2d5588763af",
+      "players": ["Exit", "Tuurtle", "HEN1", "Insani", "Brnzan"]
+    },
+    {
+      "name": "PaiN",
+      "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=50&s=e4435bf7c351b546b867adc1d7886795",
+      "players": ["PKL", "Biguzera", "Hardzao", "Skullz", "Zevy"]
+    },
+    {
+      "name": "Fluxo",
+      "logo": "https://img-cdn.hltv.org/teamlogo/vg8SOfFGkcIERMaVRlpBd7.png?ixlib=java-2.1.0&w=50&s=905877c4b85119f42bf9d12b71c7f3f5",
+      "players": ["Woody", "VSM", "Lucaozy", "Felps", "History"]
+    },
+    {
+      "name": "O PLANO",
+      "logo": "https://img-cdn.hltv.org/teamlogo/tl2Bvb_NjgYR64oEzReyz_.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=44a0c1f9044fcd7819df1ca6a48aa593",
+      "players": ["KNG", "Shz", "Decenty", "Piria", "Lub"]
+    }
+  ]
+}

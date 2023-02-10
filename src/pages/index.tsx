@@ -1,10 +1,12 @@
 import { type NextPage } from "next";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/layout";
 import teams from "../../public/data/teams.json";
 
 interface Team {
   name: string;
+  logo: string;
   players: string[];
 }
 
@@ -16,20 +18,24 @@ const Teamlist: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-col gap-2">
       {teamsState.map((team, index) => (
         <div
           key={index}
-          className="grid grid-cols-[100px,1fr] grid-rows-1 gap-2 border"
+          className="grid grid-cols-[100px,1fr] grid-rows-1 rounded border border-black"
         >
-          <h1 className="h-full bg-gray-400 p-4 text-center font-bold">
-            {team.name}
-          </h1>
-          <ul className="grid grid-cols-5 items-center p-4">
+          <img
+            src={team.logo}
+            alt={team.name}
+            className="block h-24 w-auto border-r border-black bg-green-900 p-4"
+          />
+          <ul className="grid grid-cols-5 items-center bg-green-100 p-4">
             {team.players.map((player, playerIndex) => (
-              <li key={playerIndex} className="font-bold">
-                {player}
-              </li>
+              <>
+                <li key={playerIndex} className="text-center font-bold">
+                  {player}
+                </li>
+              </>
             ))}
           </ul>
         </div>
