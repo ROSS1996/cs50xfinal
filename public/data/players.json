@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "name": "Art",
+      "team": "Furia",
+      "function": "Rifler"
+    },
+    {
+      "name": "KSCERATO",
+      "team": "Furia",
+      "function": "Rifler"
+    },
+    {
+      "name": "Yuurih",
+      "team": "Furia",
+      "function": "Rifler"
+    },
+    {
+      "name": "Drop",
+      "team": "Furia",
+      "function": "Rifler"
+    },
+    {
+      "name": "Saffee",
+      "team": "Furia",
+      "function": "AWPer"
+    },
+    {
+      "name": "Fallen",
+      "team": "Imperial",
+      "function": "AWPer"
+    },
+    {
+      "name": "Boltz",
+      "team": "Imperial",
+      "function": "Rifler"
+    },
+    {
+      "name": "Chelo",
+      "team": "Imperial",
+      "function": "Rifler"
+    },
+    {
+      "name": "Jota",
+      "team": "Imperial",
+      "function": "Rifler"
+    },
+    {
+      "name": "VINI",
+      "team": "Imperial",
+      "function": "Rifler"
+    },
+    {
+      "name": "Coldzera",
+      "team": "00Nation",
+      "function": "Rifler"
+    },
+    {
+      "name": "Taco",
+      "team": "00Nation",
+      "function": "Rifler"
+    },
+    {
+      "name": "Dumau",
+      "team": "00Nation",
+      "function": "Rifler"
+    },
+    {
+      "name": "Latto",
+      "team": "00Nation",
+      "function": "Rifler"
+    },
+    {
+      "name": "nqz",
+      "team": "00Nation",
+      "function": "AWPer"
+    },
+    {
+      "name": "Exit",
+      "team": "MIBR",
+      "function": "Rifler"
+    },
+    {
+      "name": "Tuurtle",
+      "team": "MIBR",
+      "function": "Rifler"
+    },
+    {
+      "name": "HEN1",
+      "team": "MIBR",
+      "function": "AWPer"
+    },
+    {
+      "name": "Insani",
+      "team": "MIBR",
+      "function": "Rifler"
+    },
+    {
+      "name": "Brnzan",
+      "team": "MIBR",
+      "function": "Rifler"
+    },
+    {
+      "name": "PKL",
+      "team": "PaiN",
+      "function": "Rifler"
+    },
+    {
+      "name": "Biguzera",
+      "team": "PaiN",
+      "function": "Rifler"
+    },
+    {
+      "name": "Hardzao",
+      "team": "PaiN",
+      "function": "Rifler"
+    },
+    {
+      "name": "Skullz",
+      "team": "PaiN",
+      "function": "Rifler"
+    },
+    {
+      "name": "Zevy",
+      "team": "PaiN",
+      "function": "AWPer"
+    },
+    {
+      "name": "Woody",
+      "team": "Fluxo",
+      "function": "Rifler"
+    },
+    {
+      "name": "VSM",
+      "team": "Fluxo",
+      "function": "Rifler"
+    },
+    {
+      "name": "Lucaozy",
+      "team": "Fluxo",
+      "function": "Rifler"
+    },
+    {
+      "name": "Felps",
+      "team": "Fluxo",
+      "function": "Rifler"
+    },
+    {
+      "name": "History",
+      "team": "Fluxo",
+      "function": "AWPer"
+    },
+    {
+      "name": "Kng",
+      "team": "O Plano",
+      "function": "AWPer"
+    },
+    {
+      "name": "Shz",
+      "team": "O Plano",
+      "function": "Rifler"
+    },
+    {
+      "name": "Decenty",
+      "team": "O Plano",
+      "function": "Rifler"
+    },
+    {
+      "name": "Piria",
+      "team": "O Plano",
+      "function": "Rifler"
+    },
+    {
+      "name": "Lub",
+      "team": "O Plano",
+      "function": "Rifler"
+    }
+  ]
+}

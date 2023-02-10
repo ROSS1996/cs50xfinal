@@ -1,5 +1,4 @@
 import { type NextPage } from "next";
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/layout";
 import teams from "../../public/data/teams.json";
