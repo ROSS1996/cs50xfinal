@@ -24,15 +24,20 @@ const Teamlist: React.FC = () => {
           key={index}
           className="grid grid-cols-[100px,1fr] grid-rows-1 rounded border border-black"
         >
-          <img
-            src={team.logo}
-            alt={team.name}
-            className="block h-24 w-auto border-r border-black bg-green-900 p-4"
-          />
-          <ul className="grid grid-cols-5 items-center bg-green-100 p-4">
+          <div className="flex items-center justify-center border-r border-black bg-green-900 p-4">
+            <img src={team.logo} alt={team.name} className="h-14" />
+          </div>
+          <ul className="grid grid-cols-5 items-center rounded bg-green-100 p-4">
             {team.players.map((player, playerIndex) => (
               <>
-                <li key={playerIndex} className="text-center font-bold">
+                <li
+                  key={playerIndex}
+                  className={
+                    playerIndex < team.players.length - 1
+                      ? "border-r border-black p-2 text-center font-bold"
+                      : "p-2 text-center font-bold"
+                  }
+                >
                   {player}
                 </li>
               </>
