@@ -23,6 +23,12 @@ const config = {
   images: {
     domains: ['img-cdn.hltv.org'],
   },
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/player/[id]': { page: '/player/[id]' },
+    };
+  },
 };
 
 export default config;
