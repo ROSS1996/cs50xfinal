@@ -2,7 +2,9 @@ import players from "../../public/data/players.json";
 import { useState, useEffect } from "react";
 
 interface Player {
+  id: number;
   name: string;
+  picture: string;
   team: string;
   function: string;
 }
