@@ -1,24 +1,13 @@
 import { type NextPage } from "next";
-import React, { useState, useEffect } from "react";
 import Layout from "../components/layout";
-import teams from "../../public/data/teams.json";
-
-interface Team {
-  name: string;
-  logo: string;
-  players: string[];
-}
+import useTeams from "../hooks/useTeams";
 
 const Teamlist: React.FC = () => {
-  const [teamsState, setTeamsState] = useState<Team[]>([]);
-
-  useEffect(() => {
-    setTeamsState(teams.teams);
-  }, []);
+  const teams = useTeams();
 
   return (
     <div className="flex flex-col gap-2">
-      {teamsState.map((team, index) => (
+      {teams.map((team, index) => (
         <div
           key={index}
           className="grid grid-cols-[100px,1fr] grid-rows-1 rounded border border-black"

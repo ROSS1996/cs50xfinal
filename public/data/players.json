@@ -1,176 +1,211 @@
 {
   "players": [
     {
+      "id": 1,
       "name": "Art",
       "team": "Furia",
       "function": "Rifler"
     },
     {
+      "id": 2,
       "name": "KSCERATO",
       "team": "Furia",
       "function": "Rifler"
     },
     {
+      "id": 3,
       "name": "Yuurih",
       "team": "Furia",
       "function": "Rifler"
     },
     {
+      "id": 4,
       "name": "Drop",
       "team": "Furia",
       "function": "Rifler"
     },
     {
+      "id": 5,
       "name": "Saffee",
       "team": "Furia",
       "function": "AWPer"
     },
     {
+      "id": 6,
       "name": "Fallen",
       "team": "Imperial",
       "function": "AWPer"
     },
     {
+      "id": 7,
       "name": "Boltz",
       "team": "Imperial",
       "function": "Rifler"
     },
     {
+      "id": 8,
       "name": "Chelo",
       "team": "Imperial",
       "function": "Rifler"
     },
     {
+      "id": 9,
       "name": "Jota",
       "team": "Imperial",
       "function": "Rifler"
     },
     {
+      "id": 10,
       "name": "VINI",
       "team": "Imperial",
       "function": "Rifler"
     },
     {
+      "id": 11,
       "name": "Coldzera",
       "team": "00Nation",
       "function": "Rifler"
     },
     {
+      "id": 12,
       "name": "Taco",
       "team": "00Nation",
       "function": "Rifler"
     },
     {
+      "id": 13,
       "name": "Dumau",
       "team": "00Nation",
       "function": "Rifler"
     },
     {
+      "id": 14,
       "name": "Latto",
       "team": "00Nation",
       "function": "Rifler"
     },
     {
+      "id": 15,
       "name": "nqz",
       "team": "00Nation",
       "function": "AWPer"
     },
     {
+      "id": 16,
       "name": "Exit",
       "team": "MIBR",
       "function": "Rifler"
     },
     {
+      "id": 17,
       "name": "Tuurtle",
       "team": "MIBR",
       "function": "Rifler"
     },
     {
+      "id": 18,
       "name": "HEN1",
       "team": "MIBR",
       "function": "AWPer"
     },
     {
+      "id": 19,
       "name": "Insani",
       "team": "MIBR",
       "function": "Rifler"
     },
     {
+      "id": 20,
       "name": "Brnzan",
       "team": "MIBR",
       "function": "Rifler"
     },
     {
+      "id": 21,
       "name": "PKL",
       "team": "PaiN",
       "function": "Rifler"
     },
     {
+      "id": 22,
       "name": "Biguzera",
       "team": "PaiN",
       "function": "Rifler"
     },
     {
+      "id": 23,
       "name": "Hardzao",
       "team": "PaiN",
       "function": "Rifler"
     },
     {
+      "id": 24,
       "name": "Skullz",
       "team": "PaiN",
       "function": "Rifler"
     },
     {
+      "id": 25,
       "name": "Zevy",
       "team": "PaiN",
       "function": "AWPer"
     },
     {
+      "id": 26,
       "name": "Woody",
       "team": "Fluxo",
       "function": "Rifler"
     },
     {
+      "id": 27,
       "name": "VSM",
       "team": "Fluxo",
       "function": "Rifler"
     },
     {
+      "id": 28,
       "name": "Lucaozy",
       "team": "Fluxo",
       "function": "Rifler"
     },
     {
+      "id": 29,
       "name": "Felps",
       "team": "Fluxo",
       "function": "Rifler"
     },
     {
+      "id": 30,
       "name": "History",
       "team": "Fluxo",
       "function": "AWPer"
     },
     {
+      "id": 31,
       "name": "Kng",
       "team": "O Plano",
       "function": "AWPer"
     },
     {
+      "id": 32,
       "name": "Shz",
       "team": "O Plano",
       "function": "Rifler"
     },
     {
+      "id": 33,
       "name": "Decenty",
       "team": "O Plano",
       "function": "Rifler"
     },
     {
+      "id": 34,
       "name": "Piria",
       "team": "O Plano",
       "function": "Rifler"
     },
     {
+      "id": 35,
       "name": "Lub",
       "team": "O Plano",
       "function": "Rifler"
