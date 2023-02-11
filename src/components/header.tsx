@@ -7,13 +7,13 @@ const Header: NextPage = () => {
     <header>
       <nav>
         <ul className="flex flex-row items-center gap-4 bg-green-800 p-2 font-bold text-white">
-          <Link href={"./"}>
+          <Link href={"/"}>
             <li className="flex flex-row items-center gap-1">
               <RiTeamFill />
               Times
             </li>
           </Link>
-          <Link href={"./players"}>
+          <Link href={"/players"}>
             <li className="flex flex-row items-center gap-1">
               <RiUserFill />
               Jogadores

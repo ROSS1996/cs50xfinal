@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Layout from "../components/layout";
 import usePlayers from "../hooks/usePlayers";
 import useTeams from "../hooks/useTeams";
+import Link from "next/link";
 
 const Teamlist: React.FC = () => {
   const teams = useTeams();
@@ -23,6 +24,7 @@ const Teamlist: React.FC = () => {
           <ul className="flex flex-1 items-center rounded bg-green-100 px-4">
             {team.players.map((player, playerIndex) => {
               const playerInfo = players.find((p) => p.name === player);
+              const id = playerInfo?.id ? playerInfo.id.toString() : undefined;
               return (
                 <>
                   <li
@@ -33,8 +35,15 @@ const Teamlist: React.FC = () => {
                         : "flex flex-1 flex-col items-center gap-1 p-2 text-center font-bold"
                     }
                   >
-                    <img src={playerInfo?.picture} className="h-auto w-20" />
-                    <span>{playerInfo?.name}</span>
+                    {id && (
+                      <Link href={`./player/${id}`}>
+                        <img
+                          src={playerInfo?.picture}
+                          className="h-auto w-20"
+                        />
+                        <span>{playerInfo?.name}</span>
+                      </Link>
+                    )}
                   </li>
                 </>
               );
