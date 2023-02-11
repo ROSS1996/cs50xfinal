@@ -24,11 +24,11 @@ const config = {
     domains: ['img-cdn.hltv.org'],
   },
   exportTrailingSlash: true,
-  exportPathMap: function() {
+  exportPathMap: function () {
     return {
-      '/player/[id]': { page: '/player/[id]' },
-    };
-  },
+      '/': { page: '/' }
+    }
+  }
 };
 
 export default config;

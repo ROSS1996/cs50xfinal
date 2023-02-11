@@ -92,5 +92,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: Set custom domain
-        run: echo "ross1996.github.io/brasilcs" > ./out/CNAME
