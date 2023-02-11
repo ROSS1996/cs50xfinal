@@ -2,6 +2,7 @@ import teams from "../../public/data/teams.json";
 import { useState, useEffect } from "react";
 
 interface Team {
+  id: number;
   name: string;
   logo: string;
   players: string[];

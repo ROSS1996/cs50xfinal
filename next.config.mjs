@@ -19,7 +19,10 @@ const config = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
-  }
+  },
+  images: {
+    domains: ['img-cdn.hltv.org'],
+  },
 };
 
 export default config;

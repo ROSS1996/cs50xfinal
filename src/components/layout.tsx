@@ -9,12 +9,12 @@ interface Props {
 }
 
 const Layout: NextPage<Props> = ({ title, children }) => (
-  <>
+  <div className="font-oxanium">
     <ComponentHead title={title} />
     <Header />
     <main>{children}</main>
     <Footer />
-  </>
+  </div>
 );
 
 export default Layout;

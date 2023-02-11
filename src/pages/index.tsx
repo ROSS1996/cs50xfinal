@@ -9,9 +9,9 @@ const Teamlist: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-2">
-      {teams.map((team, index) => (
+      {teams.map((team) => (
         <div
-          key={index}
+          key={team.id}
           className="grid grid-cols-[100px,1fr] grid-rows-1 rounded border border-black"
         >
           <div className="flex flex-col items-center justify-center gap-1 border-r border-black bg-green-900 p-4">
@@ -20,7 +20,7 @@ const Teamlist: React.FC = () => {
               {team.name}
             </span>
           </div>
-          <ul className="grid grid-cols-5 items-center rounded bg-green-100 px-4">
+          <ul className="flex flex-1 items-center rounded bg-green-100 px-4">
             {team.players.map((player, playerIndex) => {
               const playerInfo = players.find((p) => p.name === player);
               return (
@@ -29,11 +29,11 @@ const Teamlist: React.FC = () => {
                     key={playerIndex}
                     className={
                       playerIndex < team.players.length - 1
-                        ? "grid-rows-[1fr, 10px] grid justify-center gap-1 border-r border-black p-2 text-center font-bold"
-                        : "grid-rows-[1fr, 10px] grid justify-center  gap-1 p-2 text-center font-bold"
+                        ? "flex flex-1 flex-col items-center justify-center gap-1 border-r border-black p-2 text-center font-bold"
+                        : "flex flex-1 flex-col items-center gap-1 p-2 text-center font-bold"
                     }
                   >
-                    <img src={playerInfo?.picture} className="h-20 w-auto" />
+                    <img src={playerInfo?.picture} className="h-auto w-20" />
                     <span>{playerInfo?.name}</span>
                   </li>
                 </>
