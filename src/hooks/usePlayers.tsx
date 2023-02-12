@@ -17,7 +17,6 @@ interface Player {
   headshots: number;
   kdratio: number;
   assistsround: number;
-  deathsround: number;
   maps: number;
   ratingtop5: number;
   ratingtop10: number;
@@ -27,8 +26,7 @@ interface Player {
   function: string;
   kills: number;
   deaths: number;
-  killDeath: number;
-  killRound: number;
+  rounds: number;
   roundsWithKills: number;
   totalOpeningKills: number;
   totalOpeningDeaths: number;

@@ -6,13 +6,11 @@ import Link from "next/link";
 const Home: NextPage = () => {
   const playersData = usePlayers();
 
-  /*
   const players = playersData.sort((a, b) => {
     if (a.nickname.toUpperCase() < b.nickname.toUpperCase()) return -1;
     if (a.nickname.toUpperCase() > b.nickname.toUpperCase()) return 1;
     return 0;
   });
-  */
 
   /*
   const players = playersData.sort((a, b) => {
@@ -38,7 +36,7 @@ const Home: NextPage = () => {
   });
   
   */
-
+  /*
   const players = playersData.sort((a, b) => {
     const weightA =
       (a.ratingtop5 * 5 +
@@ -68,7 +66,7 @@ const Home: NextPage = () => {
       15;
     return weightB - weightA;
   });
-
+  */
   return (
     <Layout title="Home">
       <section className="flex flex-col gap-4 p-2">
