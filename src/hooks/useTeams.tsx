@@ -1,11 +1,19 @@
 import teams from "../../public/data/teams.json";
 import { useState, useEffect } from "react";
 
+interface Player {
+  nickname: string;
+  playerId: number;
+  playerLinkName: string;
+}
+
 interface Team {
   id: number;
   name: string;
   logo: string;
-  players: any[];
+  ranking: number;
+  coach: string;
+  players: Player[];
 }
 const useTeams = () => {
   const [teamsState, setTeamsState] = useState<Team[]>([]);

@@ -4,6 +4,12 @@ import usePlayers from "../hooks/usePlayers";
 import useTeams from "../hooks/useTeams";
 import Link from "next/link";
 
+interface Player {
+  nickname: string;
+  playerId: number;
+  playerLinkName: string;
+}
+
 const Teamlist: React.FC = () => {
   const teams = useTeams();
   const players = usePlayers();
@@ -22,7 +28,7 @@ const Teamlist: React.FC = () => {
             </span>
           </div>
           <ul className="flex flex-1 items-center rounded bg-green-100 px-4">
-            {team.players.map((player, playerIndex) => {
+            {team.players.map((player: Player, playerIndex) => {
               const playerInfo = players.find((p) => p.id === player.playerId);
               const id = playerInfo?.id ? playerInfo.id.toString() : undefined;
               return (

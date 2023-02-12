@@ -23,7 +23,7 @@ const config = {
   images: {
     domains: ['img-cdn.hltv.org'],
   },
-  exportTrailingSlash: true,
+  trailingSlash: true,
   exportPathMap: function () {
     return {
       '/': { page: '/' }
