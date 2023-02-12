@@ -46,7 +46,12 @@ const Home: NextPage = () => {
         a.ratingtop20 * 3 +
         a.ratingtop30 * 2 +
         a.ratingtop50 * 1 +
-        a.rating * 0.5) /
+        a.rating * 1 +
+        a.dpr * -1 +
+        a.kpr * 1 +
+        a.impact * 1 +
+        a.kast * 1 +
+        a.kdratio * 1) /
       15;
     const weightB =
       (b.ratingtop5 * 5 +
@@ -54,7 +59,12 @@ const Home: NextPage = () => {
         b.ratingtop20 * 3 +
         b.ratingtop30 * 2 +
         b.ratingtop50 * 1 +
-        b.rating * 0.5) /
+        b.rating * 1 +
+        b.dpr * -1 +
+        b.kpr * 1 +
+        b.impact * 1 +
+        b.kast * 1 +
+        b.kdratio * 1) /
       15;
     return weightB - weightA;
   });
