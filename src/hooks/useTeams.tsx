@@ -5,7 +5,7 @@ interface Team {
   id: number;
   name: string;
   logo: string;
-  players: string[];
+  players: any[];
 }
 const useTeams = () => {
   const [teamsState, setTeamsState] = useState<Team[]>([]);

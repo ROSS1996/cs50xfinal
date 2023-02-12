@@ -1,242 +1,378 @@
 {
-  "teams": [
-    {
-      "id": "8297",
-      "name": "FURIA",
-      "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "ranking": 9,
-      "coach": "Nicholas 'guerri' Nogueira",
-      "players": [
+    "teams": [
         {
-          "nickname": "arT",
-          "playerId": "12521",
-          "playerLinkName": "art"
+            "id": 8297,
+            "name": "FURIA",
+            "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+            "ranking": 9,
+            "coach": "Nicholas 'guerri' Nogueira",
+            "players": [
+                {
+                    "nickname": "arT",
+                    "playerId": 12521,
+                    "playerLinkName": "art"
+                },
+                {
+                    "nickname": "yuurih",
+                    "playerId": 12553,
+                    "playerLinkName": "yuurih"
+                },
+                {
+                    "nickname": "KSCERATO",
+                    "playerId": 15631,
+                    "playerLinkName": "kscerato"
+                },
+                {
+                    "nickname": "saffee",
+                    "playerId": 18835,
+                    "playerLinkName": "saffee"
+                },
+                {
+                    "nickname": "drop",
+                    "playerId": 19750,
+                    "playerLinkName": "drop"
+                }
+            ]
         },
         {
-          "nickname": "yuurih",
-          "playerId": "12553",
-          "playerLinkName": "yuurih"
+            "id": 9215,
+            "name": "MIBR",
+            "logo": "https://img-cdn.hltv.org/teamlogo/sVnH-oAf1J5TnMwoY4cxUC.png?ixlib=java-2.1.0&w=50&s=b0ef463fa0f1638bce72a89590fbaddf",
+            "ranking": 25,
+            "coach": "Bruno 'BIT' Fukuda Lima",
+            "players": [
+                {
+                    "nickname": "HEN1",
+                    "playerId": 8565,
+                    "playerLinkName": "hen1"
+                },
+                {
+                    "nickname": "exit",
+                    "playerId": 11154,
+                    "playerLinkName": "exit"
+                },
+                {
+                    "nickname": "Tuurtle",
+                    "playerId": 14394,
+                    "playerLinkName": "tuurtle"
+                },
+                {
+                    "nickname": "brnz4n",
+                    "playerId": 20987,
+                    "playerLinkName": "brnz4n"
+                },
+                {
+                    "nickname": "insani",
+                    "playerId": 21037,
+                    "playerLinkName": "insani"
+                }
+            ]
         },
         {
-          "nickname": "KSCERATO",
-          "playerId": "15631",
-          "playerLinkName": "kscerato"
+            "id": 4773,
+            "name": "paiN",
+            "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+            "ranking": 27,
+            "coach": "Henrique 'rikz' Waku",
+            "players": [
+                {
+                    "nickname": "NEKIZ",
+                    "playerId": 9482,
+                    "playerLinkName": "nekiz"
+                },
+                {
+                    "nickname": "hardzao",
+                    "playerId": 16817,
+                    "playerLinkName": "hardzao"
+                },
+                {
+                    "nickname": "biguzera",
+                    "playerId": 18141,
+                    "playerLinkName": "biguzera"
+                },
+                {
+                    "nickname": "skullz",
+                    "playerId": 18676,
+                    "playerLinkName": "skullz"
+                },
+                {
+                    "nickname": "zevy",
+                    "playerId": 19692,
+                    "playerLinkName": "zevy"
+                }
+            ]
         },
         {
-          "nickname": "saffee",
-          "playerId": "18835",
-          "playerLinkName": "saffee"
+            "id": 11837,
+            "name": "Fluxo",
+            "logo": "https://img-cdn.hltv.org/teamlogo/fnzW7adbehiewa59ES3QCf.png?ixlib=java-2.1.0&w=50&s=eff2713cacccca757d98ea8ef8ec184d",
+            "ranking": 36,
+            "coach": "Wilton 'zews' Prado",
+            "players": [
+                {
+                    "nickname": "felps",
+                    "playerId": 9219,
+                    "playerLinkName": "felps"
+                },
+                {
+                    "nickname": "WOOD7",
+                    "playerId": 14390,
+                    "playerLinkName": "wood7"
+                },
+                {
+                    "nickname": "vsm",
+                    "playerId": 16816,
+                    "playerLinkName": "vsm"
+                },
+                {
+                    "nickname": "Lucaozy",
+                    "playerId": 18717,
+                    "playerLinkName": "lucaozy"
+                },
+                {
+                    "nickname": "history",
+                    "playerId": 20939,
+                    "playerLinkName": "history"
+                }
+            ]
         },
         {
-          "nickname": "drop",
-          "playerId": "19750",
-          "playerLinkName": "drop"
+            "id": 9455,
+            "name": "Imperial",
+            "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
+            "ranking": 37,
+            "coach": "Rafael 'zakk' Fernandes",
+            "players": [
+                {
+                    "nickname": "FalleN",
+                    "playerId": 2023,
+                    "playerLinkName": "fallen"
+                },
+                {
+                    "nickname": "boltz",
+                    "playerId": 8568,
+                    "playerLinkName": "boltz"
+                },
+                {
+                    "nickname": "chelo",
+                    "playerId": 10566,
+                    "playerLinkName": "chelo"
+                },
+                {
+                    "nickname": "VINI",
+                    "playerId": 12822,
+                    "playerLinkName": "vini"
+                },
+                {
+                    "nickname": "JOTA",
+                    "playerId": 17861,
+                    "playerLinkName": "jota"
+                }
+            ]
+        },
+        {
+            "id": 6947,
+            "name": "TeamOne",
+            "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
+            "ranking": 43,
+            "coach": "Luis 'peacemaker' Tadeu",
+            "players": [
+                {
+                    "nickname": "Maluk3",
+                    "playerId": 2529,
+                    "playerLinkName": "maluk3"
+                },
+                {
+                    "nickname": "iDk",
+                    "playerId": 10818,
+                    "playerLinkName": "idk"
+                },
+                {
+                    "nickname": "trk",
+                    "playerId": 11163,
+                    "playerLinkName": "trk"
+                },
+                {
+                    "nickname": "malbsMd",
+                    "playerId": 11617,
+                    "playerLinkName": "malbsmd"
+                },
+                {
+                    "nickname": "pesadelo",
+                    "playerId": 17553,
+                    "playerLinkName": "pesadelo"
+                }
+            ]
+        },
+        {
+            "id": 11309,
+            "name": "00NATION",
+            "logo": "https://img-cdn.hltv.org/teamlogo/-LUi1MZwRXN6fQ_pbha7Ke.png?ixlib=java-2.1.0&w=50&s=c030a8759455d70338739d5643e39172",
+            "ranking": 44,
+            "coach": "Olavo 'chucky' Napole\u00e3o",
+            "players": [
+                {
+                    "nickname": "coldzera",
+                    "playerId": 9216,
+                    "playerLinkName": "coldzera"
+                },
+                {
+                    "nickname": "TACO",
+                    "playerId": 9217,
+                    "playerLinkName": "taco"
+                },
+                {
+                    "nickname": "dumau",
+                    "playerId": 15698,
+                    "playerLinkName": "dumau"
+                },
+                {
+                    "nickname": "latto",
+                    "playerId": 19045,
+                    "playerLinkName": "latto"
+                },
+                {
+                    "nickname": "nqz",
+                    "playerId": 19694,
+                    "playerLinkName": "nqz"
+                }
+            ]
+        },
+        {
+            "id": 8113,
+            "name": "Sharks",
+            "logo": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
+            "ranking": 100,
+            "coach": "H\u00e9lder 'coachi' Sancho",
+            "players": [
+                {
+                    "nickname": "drg",
+                    "playerId": 16645,
+                    "playerLinkName": "drg"
+                },
+                {
+                    "nickname": "chay",
+                    "playerId": 20026,
+                    "playerLinkName": "chay"
+                },
+                {
+                    "nickname": "togs",
+                    "playerId": 20084,
+                    "playerLinkName": "togs"
+                },
+                {
+                    "nickname": "Gafolo",
+                    "playerId": 20558,
+                    "playerLinkName": "gafolo"
+                },
+                {
+                    "nickname": "rdnzao",
+                    "playerId": 21921,
+                    "playerLinkName": "rdnzao"
+                }
+            ]
+        },
+        {
+            "id": 10994,
+            "name": "O PLANO",
+            "logo": "https://img-cdn.hltv.org/teamlogo/tl2Bvb_NjgYR64oEzReyz_.png?ixlib=java-2.1.0&w=50&s=ef18ef8e6a259f08e46edc934528dbbd",
+            "ranking": 117,
+            "coach": "Willian 'Xamp' Caldas",
+            "players": [
+                {
+                    "nickname": "kNgV-",
+                    "playerId": 5736,
+                    "playerLinkName": "kngv"
+                },
+                {
+                    "nickname": "shz",
+                    "playerId": 11739,
+                    "playerLinkName": "shz"
+                },
+                {
+                    "nickname": "piriaz1n",
+                    "playerId": 18714,
+                    "playerLinkName": "piriaz1n"
+                },
+                {
+                    "nickname": "lub",
+                    "playerId": 20157,
+                    "playerLinkName": "lub"
+                },
+                {
+                    "nickname": "decenty",
+                    "playerId": 20183,
+                    "playerLinkName": "decenty"
+                }
+            ]
+        },
+        {
+            "id": 12065,
+            "name": "Flamengo",
+            "logo": "https://img-cdn.hltv.org/teamlogo/SU0UNahnVBdNkysv3rDF9S.png?ixlib=java-2.1.0&w=50&s=8c927717650b6c84b8b0f755fe925c4e",
+            "ranking": 121,
+            "coach": "Matheus 'KAOS' Nicolau",
+            "players": [
+                {
+                    "nickname": "zqkS",
+                    "playerId": 7383,
+                    "playerLinkName": "zqks"
+                },
+                {
+                    "nickname": "SHOOWTiME",
+                    "playerId": 9220,
+                    "playerLinkName": "shoowtime"
+                },
+                {
+                    "nickname": "delboNi",
+                    "playerId": 11213,
+                    "playerLinkName": "delboni"
+                },
+                {
+                    "nickname": "f4stzin",
+                    "playerId": 18140,
+                    "playerLinkName": "f4stzin"
+                },
+                {
+                    "nickname": "n1ssim",
+                    "playerId": 19686,
+                    "playerLinkName": "n1ssim"
+                }
+            ]
+        },
+        {
+            "id": 11768,
+            "name": "ODDIK",
+            "logo": "https://img-cdn.hltv.org/teamlogo/vpWs2bh24DJ8mqXotmXCJM.png?ixlib=java-2.1.0&w=50&s=415cf2a5a2ef2c318943b5bc53b38681",
+            "ranking": 137,
+            "coach": "Pedro 'SKY' Lahass",
+            "players": [
+                {
+                    "nickname": "remix",
+                    "playerId": 2544,
+                    "playerLinkName": "remix"
+                },
+                {
+                    "nickname": "naitte",
+                    "playerId": 17181,
+                    "playerLinkName": "naitte"
+                },
+                {
+                    "nickname": "vLa",
+                    "playerId": 17225,
+                    "playerLinkName": "vla"
+                },
+                {
+                    "nickname": "RICIOLI",
+                    "playerId": 18875,
+                    "playerLinkName": "ricioli"
+                },
+                {
+                    "nickname": "r1see",
+                    "playerId": 21915,
+                    "playerLinkName": "r1see"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "9455",
-      "name": "Imperial",
-      "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-      "ranking": 37,
-      "coach": "Rafael 'zakk' Fernandes",
-      "players": [
-        {
-          "nickname": "FalleN",
-          "playerId": "2023",
-          "playerLinkName": "fallen"
-        },
-        {
-          "nickname": "boltz",
-          "playerId": "8568",
-          "playerLinkName": "boltz"
-        },
-        {
-          "nickname": "chelo",
-          "playerId": "10566",
-          "playerLinkName": "chelo"
-        },
-        {
-          "nickname": "VINI",
-          "playerId": "12822",
-          "playerLinkName": "vini"
-        },
-        {
-          "nickname": "JOTA",
-          "playerId": "17861",
-          "playerLinkName": "jota"
-        }
-      ]
-    },
-    {
-      "id": "11309",
-      "name": "00NATION",
-      "logo": "https://img-cdn.hltv.org/teamlogo/-LUi1MZwRXN6fQ_pbha7Ke.png?ixlib=java-2.1.0&w=50&s=c030a8759455d70338739d5643e39172",
-      "ranking": 44,
-      "coach": "Olavo 'chucky' Napoleao",
-      "players": [
-        {
-          "nickname": "coldzera",
-          "playerId": "9216",
-          "playerLinkName": "coldzera"
-        },
-        {
-          "nickname": "TACO",
-          "playerId": "9217",
-          "playerLinkName": "taco"
-        },
-        {
-          "nickname": "dumau",
-          "playerId": "15698",
-          "playerLinkName": "dumau"
-        },
-        {
-          "nickname": "latto",
-          "playerId": "19045",
-          "playerLinkName": "latto"
-        },
-        {
-          "nickname": "nqz",
-          "playerId": "19694",
-          "playerLinkName": "nqz"
-        }
-      ]
-    },
-    {
-      "id": "9215",
-      "name": "MIBR",
-      "logo": "https://img-cdn.hltv.org/teamlogo/sVnH-oAf1J5TnMwoY4cxUC.png?ixlib=java-2.1.0&w=50&s=b0ef463fa0f1638bce72a89590fbaddf",
-      "ranking": 25,
-      "coach": "Bruno 'BIT' Fukuda Lima",
-      "players": [
-        {
-          "nickname": "HEN1",
-          "playerId": "8565",
-          "playerLinkName": "hen1"
-        },
-        {
-          "nickname": "exit",
-          "playerId": "11154",
-          "playerLinkName": "exit"
-        },
-        {
-          "nickname": "Tuurtle",
-          "playerId": "14394",
-          "playerLinkName": "tuurtle"
-        },
-        {
-          "nickname": "brnz4n",
-          "playerId": "20987",
-          "playerLinkName": "brnz4n"
-        },
-        {
-          "nickname": "insani",
-          "playerId": "21037",
-          "playerLinkName": "insani"
-        }
-      ]
-    },
-    {
-      "id": "4773",
-      "name": "paiN",
-      "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
-      "ranking": 27,
-      "coach": "Henrique 'rikz' Waku",
-      "players": [
-        {
-          "nickname": "NEKIZ",
-          "playerId": "9482",
-          "playerLinkName": "nekiz"
-        },
-        {
-          "nickname": "hardzao",
-          "playerId": "16817",
-          "playerLinkName": "hardzao"
-        },
-        {
-          "nickname": "biguzera",
-          "playerId": "18141",
-          "playerLinkName": "biguzera"
-        },
-        {
-          "nickname": "skullz",
-          "playerId": "18676",
-          "playerLinkName": "skullz"
-        },
-        {
-          "nickname": "zevy",
-          "playerId": "19692",
-          "playerLinkName": "zevy"
-        }
-      ]
-    },
-    {
-      "id": "11837",
-      "name": "Fluxo",
-      "logo": "https://img-cdn.hltv.org/teamlogo/fnzW7adbehiewa59ES3QCf.png?ixlib=java-2.1.0&w=50&s=eff2713cacccca757d98ea8ef8ec184d",
-      "ranking": 36,
-      "coach": "Wilton 'zews' Prado",
-      "players": [
-        {
-          "nickname": "felps",
-          "playerId": "9219",
-          "playerLinkName": "felps"
-        },
-        {
-          "nickname": "WOOD7",
-          "playerId": "14390",
-          "playerLinkName": "wood7"
-        },
-        {
-          "nickname": "vsm",
-          "playerId": "16816",
-          "playerLinkName": "vsm"
-        },
-        {
-          "nickname": "Lucaozy",
-          "playerId": "18717",
-          "playerLinkName": "lucaozy"
-        },
-        {
-          "nickname": "history",
-          "playerId": "20939",
-          "playerLinkName": "history"
-        }
-      ]
-    },
-    {
-      "id": "10994",
-      "name": "O PLANO",
-      "logo": "https://img-cdn.hltv.org/teamlogo/tl2Bvb_NjgYR64oEzReyz_.png?ixlib=java-2.1.0&w=50&s=ef18ef8e6a259f08e46edc934528dbbd",
-      "ranking": 117,
-      "coach": "Willian 'Xamp' Caldas",
-      "players": [
-        {
-          "nickname": "kNgV-",
-          "playerId": "5736",
-          "playerLinkName": "kngv"
-        },
-        {
-          "nickname": "shz",
-          "playerId": "11739",
-          "playerLinkName": "shz"
-        },
-        {
-          "nickname": "piriaz1n",
-          "playerId": "18714",
-          "playerLinkName": "piriaz1n"
-        },
-        {
-          "nickname": "lub",
-          "playerId": "20157",
-          "playerLinkName": "lub"
-        },
-        {
-          "nickname": "decenty",
-          "playerId": "20183",
-          "playerLinkName": "decenty"
-        }
-      ]
-    }
-  ]
+    ]
 }

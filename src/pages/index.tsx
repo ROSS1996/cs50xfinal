@@ -23,11 +23,7 @@ const Teamlist: React.FC = () => {
           </div>
           <ul className="flex flex-1 items-center rounded bg-green-100 px-4">
             {team.players.map((player, playerIndex) => {
-              const playerInfo = players.find(
-                (p) =>
-                  p.nickname?.toLocaleLowerCase() ===
-                  player.nickname.toLowerCase()
-              );
+              const playerInfo = players.find((p) => p.id === player.playerId);
               const id = playerInfo?.id ? playerInfo.id.toString() : undefined;
               return (
                 <>
