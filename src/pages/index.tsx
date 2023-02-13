@@ -74,17 +74,19 @@ const Teamlist: React.FC = () => {
                 {team.bench.length < 1 ? (
                   false
                 ) : (
-                  <p>
+                  <p className="font-bold">
                     Reservas:{" "}
-                    {team.bench.map((player: Player, playerIndex) => (
-                      <Link
-                        href={`./player/${player.playerId}`}
-                        key={player.playerId}
-                        className="hover:underline"
-                      >
-                        {player.nickname}
-                      </Link>
-                    ))}
+                    <span className="inline-flex flex-row gap-2">
+                      {team.bench.map((player: Player, playerIndex) => (
+                        <Link
+                          href={`./player/${player.playerId}`}
+                          key={player.playerId}
+                          className="hover:underline"
+                        >
+                          {player.nickname}
+                        </Link>
+                      ))}
+                    </span>
                   </p>
                 )}
               </div>
