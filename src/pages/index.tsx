@@ -8,6 +8,7 @@ interface Player {
   nickname: string;
   playerId: number;
   playerLinkName: string;
+  status: string;
 }
 
 const Teamlist: React.FC = () => {
@@ -19,44 +20,76 @@ const Teamlist: React.FC = () => {
       {teams.map((team) => (
         <div
           key={team.id}
-          className="grid grid-cols-[100px,1fr] grid-rows-1 rounded border border-black"
+          className="grid-rows-[1fr, fit-content] grid grid-cols-[100px,1fr] rounded border border-black"
         >
-          <div className="flex flex-col items-center justify-center gap-1 border-r border-black bg-green-900 p-4">
+          <div className="row-span-2 flex flex-col items-center justify-center gap-1 border-r border-black bg-green-900 p-4">
             <img src={team.logo} alt={team.name} className="h-14" />
             <span className="text-center font-bold text-white">
               {team.name}
             </span>
           </div>
-          <ul className="flex flex-1 items-center rounded bg-green-100 px-4">
-            {team.players.map((player: Player, playerIndex) => {
-              const playerInfo = players.find((p) => p.id === player.playerId);
-              const id = playerInfo?.id ? playerInfo.id.toString() : undefined;
-              return (
-                <>
-                  <li
-                    key={playerIndex}
-                    className={
-                      playerIndex < team.players.length - 1
-                        ? "flex flex-1 flex-col items-center justify-center gap-1 border-r border-black p-2 text-center font-bold"
-                        : "flex flex-1 flex-col items-center gap-1 p-2 text-center font-bold"
-                    }
-                  >
-                    {id && (
-                      <Link href={`./player/${id}`}>
-                        {playerInfo?.image && (
-                          <img
-                            src={playerInfo?.image}
-                            className="h-auto w-20"
-                          />
+          <div>
+            <ul className="group flex flex-1 items-center rounded bg-green-100 px-4 [&>*:nth-last-child(n+2)]:border-r">
+              {team.players.map((player: Player, playerIndex) => {
+                const playerInfo = players.find(
+                  (p) => p.id === player.playerId
+                );
+                const id = playerInfo?.id
+                  ? playerInfo.id.toString()
+                  : undefined;
+                if (player.status === "Starter")
+                  return (
+                    <>
+                      <li
+                        key={playerIndex}
+                        className={
+                          "flex flex-1 flex-col items-center justify-center gap-1  border-black p-2 text-center font-bold"
+                        }
+                      >
+                        {id && (
+                          <Link href={`./player/${id}`}>
+                            {playerInfo?.image && (
+                              <img
+                                src={playerInfo?.image}
+                                className="h-auto w-20"
+                              />
+                            )}
+                            <span>{playerInfo?.nickname}</span>
+                          </Link>
                         )}
-                        <span>{playerInfo?.nickname}</span>
+                      </li>
+                    </>
+                  );
+              })}
+            </ul>
+            {team.bench.length < 1 && team.coach.name === "" ? (
+              false
+            ) : (
+              <div className="border-t border-black px-1">
+                {team.coach.name === "" ? (
+                  false
+                ) : (
+                  <p className="font-bold">Coach: {team.coach.name}</p>
+                )}
+                {team.bench.length < 1 ? (
+                  false
+                ) : (
+                  <p>
+                    Reservas:{" "}
+                    {team.bench.map((player: Player, playerIndex) => (
+                      <Link
+                        href={`./player/${player.playerId}`}
+                        key={player.playerId}
+                        className="hover:underline"
+                      >
+                        {player.nickname}
                       </Link>
-                    )}
-                  </li>
-                </>
-              );
-            })}
-          </ul>
+                    ))}
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       ))}
     </div>
