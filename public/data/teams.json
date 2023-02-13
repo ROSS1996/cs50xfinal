@@ -273,6 +273,69 @@
             ]
         },
         {
+            "id": 10894,
+            "name": "Case",
+            "logo": "https://img-cdn.hltv.org/teamlogo/mk0eycjclCIAqaZZ0kA3o3.png?ixlib=java-2.1.0&w=50&s=8cd5ebabd4c4089981bce7b7470c64cb",
+            "ranking": 107,
+            "coach": "",
+            "players": [
+                {
+                    "nickname": "steel",
+                    "playerId": 7382,
+                    "playerLinkName": "steel"
+                },
+                {
+                    "nickname": "leo_drk",
+                    "playerId": 11329,
+                    "playerLinkName": "leo-drk"
+                },
+                {
+                    "nickname": "RCF",
+                    "playerId": 11337,
+                    "playerLinkName": "rcf"
+                },
+                {
+                    "nickname": "yepz",
+                    "playerId": 16954,
+                    "playerLinkName": "yepz"
+                },
+                {
+                    "nickname": "honda",
+                    "playerId": 20378,
+                    "playerLinkName": "honda"
+                }
+            ]
+        },
+        {
+            "id": 11561,
+            "name": "ARCTIC",
+            "logo": "https://img-cdn.hltv.org/teamlogo/NXMLun_eKCyApJQzmJB38q.png?ixlib=java-2.1.0&w=50&s=5b1bdf21f6665811751df6324094d25a",
+            "ranking": 108,
+            "coach": "",
+            "players": [
+                {
+                    "nickname": "ponter",
+                    "playerId": 16835,
+                    "playerLinkName": "ponter"
+                },
+                {
+                    "nickname": "MaLLby",
+                    "playerId": 17216,
+                    "playerLinkName": "mallby"
+                },
+                {
+                    "nickname": "ninjaZ",
+                    "playerId": 20083,
+                    "playerLinkName": "ninjaz"
+                },
+                {
+                    "nickname": "short",
+                    "playerId": 20278,
+                    "playerLinkName": "short"
+                }
+            ]
+        },
+        {
             "id": 10994,
             "name": "O PLANO",
             "logo": "https://img-cdn.hltv.org/teamlogo/tl2Bvb_NjgYR64oEzReyz_.png?ixlib=java-2.1.0&w=50&s=ef18ef8e6a259f08e46edc934528dbbd",
@@ -341,6 +404,40 @@
             ]
         },
         {
+            "id": 11814,
+            "name": "Corinthians",
+            "logo": "https://img-cdn.hltv.org/teamlogo/Q9vtsznWEOK6yiakCWx0n2.png?ixlib=java-2.1.0&w=50&s=f7d33a9ee197c1753d6e6fcb0bcf55bb",
+            "ranking": 126,
+            "coach": "Guilherme 'KinGui' Balancieri",
+            "players": [
+                {
+                    "nickname": "Demonos",
+                    "playerId": 13290,
+                    "playerLinkName": "demonos"
+                },
+                {
+                    "nickname": "r4ul",
+                    "playerId": 14011,
+                    "playerLinkName": "r4ul"
+                },
+                {
+                    "nickname": "voltera",
+                    "playerId": 19290,
+                    "playerLinkName": "voltera"
+                },
+                {
+                    "nickname": "proSHOW",
+                    "playerId": 19831,
+                    "playerLinkName": "proshow"
+                },
+                {
+                    "nickname": "fREQ",
+                    "playerId": 20885,
+                    "playerLinkName": "freq"
+                }
+            ]
+        },
+        {
             "id": 11768,
             "name": "ODDIK",
             "logo": "https://img-cdn.hltv.org/teamlogo/vpWs2bh24DJ8mqXotmXCJM.png?ixlib=java-2.1.0&w=50&s=415cf2a5a2ef2c318943b5bc53b38681",
@@ -371,6 +468,244 @@
                     "nickname": "r1see",
                     "playerId": 21915,
                     "playerLinkName": "r1see"
+                }
+            ]
+        },
+        {
+            "id": 6619,
+            "name": "INTZ",
+            "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
+            "ranking": 138,
+            "coach": "Pablo 'disturbed' Fernandes",
+            "players": [
+                {
+                    "nickname": "w1",
+                    "playerId": 16831,
+                    "playerLinkName": "w1"
+                },
+                {
+                    "nickname": "TEKO",
+                    "playerId": 17130,
+                    "playerLinkName": "teko"
+                },
+                {
+                    "nickname": "Leomonster",
+                    "playerId": 17132,
+                    "playerLinkName": "leomonster"
+                },
+                {
+                    "nickname": "desh",
+                    "playerId": 17133,
+                    "playerLinkName": "desh"
+                },
+                {
+                    "nickname": "BobZ",
+                    "playerId": 17215,
+                    "playerLinkName": "bobz"
+                }
+            ]
+        },
+        {
+            "id": 11249,
+            "name": "Meta",
+            "logo": "https://img-cdn.hltv.org/teamlogo/4UHOWy9b2gY2b_jqeqt0gj.png?ixlib=java-2.1.0&w=50&s=c3f776282bcabab62a542a5d2d026628",
+            "ranking": 140,
+            "coach": "Junior 'BIANNCHI' Bianchi",
+            "players": [
+                {
+                    "nickname": "dok",
+                    "playerId": 10828,
+                    "playerLinkName": "dok"
+                },
+                {
+                    "nickname": "abr",
+                    "playerId": 17028,
+                    "playerLinkName": "abr"
+                },
+                {
+                    "nickname": "CutzMeretz",
+                    "playerId": 18891,
+                    "playerLinkName": "cutzmeretz"
+                },
+                {
+                    "nickname": "supLexN1",
+                    "playerId": 18963,
+                    "playerLinkName": "suplexn1"
+                },
+                {
+                    "nickname": "Alisson",
+                    "playerId": 20521,
+                    "playerLinkName": "alisson"
+                }
+            ]
+        },
+        {
+            "id": 8885,
+            "name": "FURIA Academy",
+            "logo": "https://img-cdn.hltv.org/teamlogo/YsXiSdXuHo9hY8ip5cjbnL.png?ixlib=java-2.1.0&w=50&s=07238031d2fe2c0353b1fc9c15fa9566",
+            "ranking": 146,
+            "coach": "Leonardo 'msr' Caixeta",
+            "players": [
+                {
+                    "nickname": "zmb",
+                    "playerId": 14010,
+                    "playerLinkName": "zmb"
+                },
+                {
+                    "nickname": "kauez",
+                    "playerId": 20085,
+                    "playerLinkName": "kauez"
+                },
+                {
+                    "nickname": "kye",
+                    "playerId": 20385,
+                    "playerLinkName": "kye"
+                },
+                {
+                    "nickname": "Bruninho",
+                    "playerId": 20577,
+                    "playerLinkName": "bruninho"
+                },
+                {
+                    "nickname": "mello",
+                    "playerId": 22084,
+                    "playerLinkName": "mello"
+                }
+            ]
+        },
+        {
+            "id": 7176,
+            "name": "RED Canids",
+            "logo": "https://img-cdn.hltv.org/teamlogo/6uDezWU1gvTneQH3oNNhnu.png?ixlib=java-2.1.0&w=50&s=e80c03167406a3cd74683236e00a32f9",
+            "ranking": 156,
+            "coach": "Pedro 'betinho' Umberto",
+            "players": [
+                {
+                    "nickname": "realz1n",
+                    "playerId": 16769,
+                    "playerLinkName": "realz1n"
+                },
+                {
+                    "nickname": "danoco",
+                    "playerId": 16814,
+                    "playerLinkName": "danoco"
+                },
+                {
+                    "nickname": "detr0ittJ",
+                    "playerId": 18610,
+                    "playerLinkName": "detr0ittj"
+                },
+                {
+                    "nickname": "t9rnay",
+                    "playerId": 18894,
+                    "playerLinkName": "t9rnay"
+                },
+                {
+                    "nickname": "ckzao",
+                    "playerId": 19972,
+                    "playerLinkName": "ckzao"
+                }
+            ]
+        },
+        {
+            "id": 10669,
+            "name": "Paquet\u00e1",
+            "logo": "https://img-cdn.hltv.org/teamlogo/eIzAZho8WtK89JGsseLANh.png?ixlib=java-2.1.0&w=50&s=986dfd61dbfc7c08f5bf1461c322006b",
+            "ranking": 160,
+            "coach": "Jo\u00e3o 'righi' Righi",
+            "players": [
+                {
+                    "nickname": "DeStiNy",
+                    "playerId": 9483,
+                    "playerLinkName": "destiny"
+                },
+                {
+                    "nickname": "yel",
+                    "playerId": 10560,
+                    "playerLinkName": "yel"
+                },
+                {
+                    "nickname": "ALLE",
+                    "playerId": 11922,
+                    "playerLinkName": "alle"
+                },
+                {
+                    "nickname": "nython",
+                    "playerId": 18743,
+                    "playerLinkName": "nython"
+                },
+                {
+                    "nickname": "venomzera",
+                    "playerId": 21288,
+                    "playerLinkName": "venomzera"
+                }
+            ]
+        },
+        {
+            "id": 12040,
+            "name": "TropiCaos",
+            "logo": "https://img-cdn.hltv.org/teamlogo/Soii_yBta4eD-yYaIgk_lH.png?ixlib=java-2.1.0&w=50&s=848f79da750a63b78bcba30989641b1f",
+            "ranking": 184,
+            "coach": "Lucas 'logS' Salim",
+            "players": [
+                {
+                    "nickname": "land1n",
+                    "playerId": 10557,
+                    "playerLinkName": "land1n"
+                },
+                {
+                    "nickname": "dzt",
+                    "playerId": 10570,
+                    "playerLinkName": "dzt"
+                },
+                {
+                    "nickname": "prt",
+                    "playerId": 10827,
+                    "playerLinkName": "prt"
+                },
+                {
+                    "nickname": "mawth",
+                    "playerId": 10838,
+                    "playerLinkName": "mawth"
+                },
+                {
+                    "nickname": "tatazin",
+                    "playerId": 10840,
+                    "playerLinkName": "tatazin"
+                }
+            ]
+        },
+        {
+            "id": 3044,
+            "name": "MIBR Academy",
+            "logo": "https://img-cdn.hltv.org/teamlogo/gFQKd48pLOvrtEDXhcHxkZ.png?ixlib=java-2.1.0&w=50&s=76693c9855cb7f3afa733ba3c4db0ac9",
+            "ranking": 197,
+            "coach": "Guilherme 'texxas' Mayworm",
+            "players": [
+                {
+                    "nickname": "phx",
+                    "playerId": 18877,
+                    "playerLinkName": "phx"
+                },
+                {
+                    "nickname": "card",
+                    "playerId": 20029,
+                    "playerLinkName": "card"
+                },
+                {
+                    "nickname": "brn$",
+                    "playerId": 21700,
+                    "playerLinkName": "brn"
+                },
+                {
+                    "nickname": "nicks",
+                    "playerId": 22366,
+                    "playerLinkName": "nicks"
+                },
+                {
+                    "nickname": "diozera",
+                    "playerId": 22777,
+                    "playerLinkName": "diozera"
                 }
             ]
         }

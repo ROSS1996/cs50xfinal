@@ -68,167 +68,189 @@ const PlayerPage = () => {
         </div>
       </section>
       <section className="flex flex-col gap-3 p-2">
-        <div className="rounded border border-black p-2">
-          <p>
-            <h1 className="px-1 text-lg font-bold">Médias</h1>
-            <h2 className="border-b border-black font-bold">
-              Mortes por round
-            </h2>
-            {player.dpr}
-          </p>
-          <p>
-            <h2 className="border-b border-black font-bold">KAST</h2>
-            {player.kast}
-          </p>
-          <p>
+        <ul className="rounded border border-black p-2">
+          <h1 className="px-1 text-lg font-bold">Médias</h1>
+          <li>
             <h2 className="border-b border-black font-bold">Impacto</h2>
             {player.impact}
-          </p>
-          <p>
+          </li>
+          <li>
+            <h2 className="border-b border-black font-bold">
+              KAST - Kills, Assistências, Sobrevivências, Trocas
+            </h2>
+            {player.kast}%
+          </li>
+          <li>
+            <h2 className="border-b border-black font-bold">KD</h2>
+            {player.kdratio}
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Dano médio por Round
             </h2>
             {player.adr}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Kill por round</h2>
             {player.kpr}
-          </p>
-          <p>
+          </li>
+          <li>
+            <h2 className="border-b border-black font-bold">
+              Mortes por round
+            </h2>
+            {player.dpr}
+          </li>
+          <li>
+            <h2 className="border-b border-black font-bold">
+              % de Rounds com Kills
+            </h2>
+            {Math.round((player.roundsWithKills / player.rounds) * 100)}%
+          </li>
+          <li>
+            <h2 className="border-b border-black font-bold">
+              % de Rounds com Multkills
+            </h2>
+            {Math.round(
+              ((player.twoKillRounds +
+                player.threeKillRounds +
+                player.fourKillRounds +
+                player.fiveKillRounds) /
+                player.rounds) *
+                100
+            )}
+            %
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Taxa de HS</h2>
             {player.headshots}%
-          </p>
-          <p>
-            <h2 className="border-b border-black font-bold">KD</h2>
-            {player.kdratio}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Assistências por round
             </h2>
             {player.assistsround}
-          </p>
-        </div>
-        <div className="rounded border border-black p-2">
+          </li>
+        </ul>
+        <ul className="rounded border border-black p-2">
           <h1 className="px-1 text-lg font-bold">Estatísticas Gerais</h1>
-          <p>
+          <li>
             <h2 className="border-b border-black font-bold">Mapas jogados</h2>
             {player.maps}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Rounds jogados</h2>
             {player.rounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Kills</h2>
             {player.kills}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Mortes</h2>
             {player.deaths}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com Kills
             </h2>
             {player.roundsWithKills}
-          </p>
-        </div>
-        <div className="rounded border border-black p-2">
+          </li>
+        </ul>
+        <ul className="rounded border border-black p-2">
           <h1 className="px-1 text-lg font-bold">Estatísticas de Abertura</h1>
-          <p>
+          <li>
             <h2 className="border-b border-black font-bold">Kills iniciais</h2>
             {player.totalOpeningKills}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Mortes inciais</h2>
             {player.totalOpeningDeaths}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Kills iniciais / mortes iniciais
             </h2>
             {player.openingKillRatio}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">Rating inicial</h2>
             {player.openingKillRating}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               % de ganho após kill inicial
             </h2>
             {player.teamWinPercentageAfterFirstKill}%
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               %Kills iniciais em rounds ganhos
             </h2>
             {player.firstKillInWonRounds}%
-          </p>
-        </div>
-        <div className="rounded border border-black p-2">
+          </li>
+        </ul>
+        <ul className="rounded border border-black p-2">
           <h1 className="px-1 text-lg font-bold">Multikills</h1>
-          <p>
+          <li>
             <h2 className="border-b border-black font-bold">Rounds sem kill</h2>
             {player.zeroKillRounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com 1 kill
             </h2>
             {player.oneKillRounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com 2 kills
             </h2>
             {player.twoKillRounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com 3 kills
             </h2>
             {player.threeKillRounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com 4 kills
             </h2>
             {player.fourKillRounds}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Rounds com 5 kills
             </h2>
             {player.fiveKillRounds}
-          </p>
-        </div>
-        <div className="rounded border border-black p-2">
+          </li>
+        </ul>
+        <ul className="rounded border border-black p-2">
           <h1 className="px-1 text-lg font-bold">Distribuição de Kills</h1>
-          <p>
+          <li>
             <h2 className="border-b border-black font-bold">Kills com Rifle</h2>
             {player.rifleKills}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Kills com Sniper
             </h2>
             {player.sniperKills}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Kills com Submetralhadoras
             </h2>
             {player.smgKills}
-          </p>
-          <p>
+          </li>
+          <li>
             <h2 className="border-b border-black font-bold">
               Kills com Pistola
             </h2>
             {player.pistolKills}
-          </p>
-        </div>
+          </li>
+        </ul>
       </section>
     </Layout>
   );
