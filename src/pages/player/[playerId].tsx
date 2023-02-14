@@ -12,7 +12,7 @@ const PlayerPage = () => {
 
   if (!player) {
     return (
-      <Layout title="Erro">
+      <Layout title="Erro" description="Error">
         <h1 className="flex h-[calc(100vh-40px)] items-center justify-center text-center text-5xl font-bold">
           JOGADOR NÃO ENCONTRADO
         </h1>

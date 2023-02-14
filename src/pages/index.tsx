@@ -100,7 +100,7 @@ const Teamlist: React.FC = () => {
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Times">
+    <Layout title="Times" description="Principais times brasileiros de CSGO">
       <section className="flex flex-col gap-4 p-2">
         <Teamlist />
       </section>

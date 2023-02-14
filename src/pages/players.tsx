@@ -68,7 +68,10 @@ const Home: NextPage = () => {
   });
   */
   return (
-    <Layout title="Jogadores">
+    <Layout
+      title="Jogadores"
+      description="Principais jogadores brasileiros de CSGO na atualidade"
+    >
       <section className="flex flex-col gap-4 p-2">
         <div className="flex flex-col gap-2">
           {players.map((player) => (
