@@ -100,7 +100,7 @@ const Teamlist: React.FC = () => {
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Home">
+    <Layout title="Times">
       <section className="flex flex-col gap-4 p-2">
         <Teamlist />
       </section>

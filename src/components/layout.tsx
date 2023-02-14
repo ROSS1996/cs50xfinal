@@ -5,12 +5,13 @@ import Footer from "./footer";
 
 interface Props {
   title: string;
+  description: string;
   children: React.ReactNode;
 }
 
-const Layout: NextPage<Props> = ({ title, children }) => (
+const Layout: NextPage<Props> = ({ title, description, children }) => (
   <div className="font-oxanium">
-    <ComponentHead title={title} />
+    <ComponentHead title={title} description={description} />
     <Header />
     <main>{children}</main>
     <Footer />

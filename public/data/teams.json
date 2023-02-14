@@ -4,7 +4,7 @@
             "id": 8297,
             "name": "FURIA",
             "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-            "ranking": 9,
+            "ranking": 15,
             "coach": {
                 "name": "Nicholas 'guerri' Nogueira",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/G7S_cCRswiTefCvrFjbKCo.png?ixlib=java-2.1.0&w=400&s=987e205bb5c8f9de16e9806f2953244b"
@@ -90,7 +90,7 @@
             "id": 4773,
             "name": "paiN",
             "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
-            "ranking": 27,
+            "ranking": 30,
             "coach": {
                 "name": "Henrique 'rikz' Waku",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/6JX1ddwtXu8Hi8UCA_G6w_.png?ixlib=java-2.1.0&w=400&s=4833eab0e85782ef50d46ec1217d00dd"
@@ -190,7 +190,7 @@
             "id": 9455,
             "name": "Imperial",
             "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215",
-            "ranking": 37,
+            "ranking": 42,
             "coach": {
                 "name": "Rafael 'zakk' Fernandes",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/2sMoYcox7d5eEGlvLiASDQ.png?ixlib=java-2.1.0&w=400&s=65546a46df00136b282aff50220d5874"
@@ -233,7 +233,7 @@
             "id": 6947,
             "name": "TeamOne",
             "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
-            "ranking": 43,
+            "ranking": 45,
             "coach": {
                 "name": "Luis 'peacemaker' Tadeu",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/cl3bnH9ozAkhGUgOtp7n2E.png?ixlib=java-2.1.0&w=400&s=a7532299d47377696a766713972b06f8"
@@ -276,7 +276,7 @@
             "id": 11309,
             "name": "00NATION",
             "logo": "https://img-cdn.hltv.org/teamlogo/-LUi1MZwRXN6fQ_pbha7Ke.png?ixlib=java-2.1.0&w=50&s=c030a8759455d70338739d5643e39172",
-            "ranking": 44,
+            "ranking": 48,
             "coach": {
                 "name": "Olavo 'chucky' Napole\u00e3o",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/qsNexS9ZRm7Bvk1yGLbJMJ.png?ixlib=java-2.1.0&w=400&s=737455286b03a938f1f4638897eac326"
@@ -319,7 +319,7 @@
             "id": 8113,
             "name": "Sharks",
             "logo": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
-            "ranking": 100,
+            "ranking": 101,
             "coach": {
                 "name": "H\u00e9lder 'coachi' Sancho",
                 "image": "https://img-cdn.hltv.org/gallerypicture/EWszlwE5hebi1DZUFi6JBR.jpg?bg=3e4c54&h=400&ixlib=java-2.1.0&rect=1587%2C487%2C1411%2C1411&w=400&s=b4f04af2641def2e448c1219b4550db4"
@@ -369,7 +369,7 @@
             "id": 10894,
             "name": "Case",
             "logo": "https://img-cdn.hltv.org/teamlogo/mk0eycjclCIAqaZZ0kA3o3.png?ixlib=java-2.1.0&w=50&s=8cd5ebabd4c4089981bce7b7470c64cb",
-            "ranking": 107,
+            "ranking": 111,
             "coach": {
                 "name": "",
                 "image": ""
@@ -412,7 +412,7 @@
             "id": 11561,
             "name": "ARCTIC",
             "logo": "https://img-cdn.hltv.org/teamlogo/NXMLun_eKCyApJQzmJB38q.png?ixlib=java-2.1.0&w=50&s=5b1bdf21f6665811751df6324094d25a",
-            "ranking": 108,
+            "ranking": 116,
             "coach": {
                 "name": "Flavio 'exp' Calheiros",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/STMY8z8WwcJz4n3fJllB22.png?ixlib=java-2.1.0&w=400&s=9f7445031364cb9ed95533b753e6329f"
@@ -449,7 +449,7 @@
             "id": 10994,
             "name": "O PLANO",
             "logo": "https://img-cdn.hltv.org/teamlogo/tl2Bvb_NjgYR64oEzReyz_.png?ixlib=java-2.1.0&w=50&s=ef18ef8e6a259f08e46edc934528dbbd",
-            "ranking": 117,
+            "ranking": 118,
             "coach": {
                 "name": "Willian 'Xamp' Caldas",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/nf-oXNyLJZUOMolldwA8SJ.png?ixlib=java-2.1.0&w=400&s=fb26c1d8946ab8d4cd02e0887e86c997"
@@ -492,7 +492,7 @@
             "id": 12065,
             "name": "Flamengo",
             "logo": "https://img-cdn.hltv.org/teamlogo/SU0UNahnVBdNkysv3rDF9S.png?ixlib=java-2.1.0&w=50&s=8c927717650b6c84b8b0f755fe925c4e",
-            "ranking": 121,
+            "ranking": 120,
             "coach": {
                 "name": "Matheus 'KAOS' Nicolau",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/9pFbmmSL9Yo-6eQ8PSfIZS.png?ixlib=java-2.1.0&w=400&s=468f235c92681bfdc30657eb19dca20b"
@@ -535,7 +535,7 @@
             "id": 11814,
             "name": "Corinthians",
             "logo": "https://img-cdn.hltv.org/teamlogo/Q9vtsznWEOK6yiakCWx0n2.png?ixlib=java-2.1.0&w=50&s=f7d33a9ee197c1753d6e6fcb0bcf55bb",
-            "ranking": 126,
+            "ranking": 112,
             "coach": {
                 "name": "Guilherme 'KinGui' Balancieri",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/nyylRzu5_2XNdnNMriVfxm.png?ixlib=java-2.1.0&w=400&s=6c56fd44a6704bbd59fa05f56c9f4338"
@@ -578,7 +578,7 @@
             "id": 11768,
             "name": "ODDIK",
             "logo": "https://img-cdn.hltv.org/teamlogo/vpWs2bh24DJ8mqXotmXCJM.png?ixlib=java-2.1.0&w=50&s=415cf2a5a2ef2c318943b5bc53b38681",
-            "ranking": 137,
+            "ranking": 139,
             "coach": {
                 "name": "Pedro 'SKY' Lahass",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/tLKVs9h3aUDA9BkViYfD9z.png?ixlib=java-2.1.0&w=400&s=5e3528c3fea842c1add5d92f2ebfb0dd"
@@ -621,7 +621,7 @@
             "id": 6619,
             "name": "INTZ",
             "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
-            "ranking": 138,
+            "ranking": 129,
             "coach": {
                 "name": "Pablo 'disturbed' Fernandes",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/T7x7eqLjbjV_NGPUC_dyH6.png?ixlib=java-2.1.0&w=400&s=a8823704dac0db28b350be1fecf3144b"
@@ -664,7 +664,7 @@
             "id": 11249,
             "name": "Meta",
             "logo": "https://img-cdn.hltv.org/teamlogo/4UHOWy9b2gY2b_jqeqt0gj.png?ixlib=java-2.1.0&w=50&s=c3f776282bcabab62a542a5d2d026628",
-            "ranking": 140,
+            "ranking": 142,
             "coach": {
                 "name": "Junior 'BIANNCHI' Bianchi",
                 "image": "https://www.hltv.org/img/static/player/player_silhouette.png"
@@ -707,10 +707,10 @@
             "id": 8885,
             "name": "FURIA Academy",
             "logo": "https://img-cdn.hltv.org/teamlogo/YsXiSdXuHo9hY8ip5cjbnL.png?ixlib=java-2.1.0&w=50&s=07238031d2fe2c0353b1fc9c15fa9566",
-            "ranking": 146,
+            "ranking": 133,
             "coach": {
                 "name": "Leonardo 'msr' Caixeta",
-                "image": "https://img-cdn.hltv.org/playerbodyshot/Pytm5M6dW9GgR6HYkmuGLa.png?ixlib=java-2.1.0&w=400&s=3bcb20d8d307cb101cfac9a7e5d48305"
+                "image": "https://img-cdn.hltv.org/playerbodyshot/slo6TjU5-Au6-W_Xj9_b7D.png?ixlib=java-2.1.0&w=400&s=d454ad0380f1dbeeed97719bee6be880"
             },
             "players": [
                 {
@@ -793,7 +793,7 @@
             "id": 10669,
             "name": "Paquet\u00e1",
             "logo": "https://img-cdn.hltv.org/teamlogo/eIzAZho8WtK89JGsseLANh.png?ixlib=java-2.1.0&w=50&s=986dfd61dbfc7c08f5bf1461c322006b",
-            "ranking": 160,
+            "ranking": 135,
             "coach": {
                 "name": "Jo\u00e3o 'righi' Righi",
                 "image": "https://img-cdn.hltv.org/playerbodyshot/iWJtP0jhdEknCFMr5LQyC2.png?ixlib=java-2.1.0&w=400&s=3e784f924d3aa7c766f541dfa9bb978b"
@@ -843,7 +843,7 @@
             "id": 12040,
             "name": "TropiCaos",
             "logo": "https://img-cdn.hltv.org/teamlogo/Soii_yBta4eD-yYaIgk_lH.png?ixlib=java-2.1.0&w=50&s=848f79da750a63b78bcba30989641b1f",
-            "ranking": 184,
+            "ranking": 173,
             "coach": {
                 "name": "Lucas 'logS' Salim",
                 "image": "https://www.hltv.org/img/static/player/player_silhouette.png"

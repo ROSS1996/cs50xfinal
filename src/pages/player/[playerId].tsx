@@ -12,7 +12,7 @@ const PlayerPage = () => {
 
   if (!player) {
     return (
-      <Layout title="Home">
+      <Layout title="Erro">
         <h1 className="flex h-[calc(100vh-40px)] items-center justify-center text-center text-5xl font-bold">
           JOGADOR NÃO ENCONTRADO
         </h1>
@@ -21,7 +21,10 @@ const PlayerPage = () => {
   }
 
   return (
-    <Layout title="Home">
+    <Layout
+      title={player.nickname}
+      description={`Estatísticas do ${player.nickname}`}
+    >
       <section className="grid gap-2 p-2">
         <div className="grid grid-cols-[200px_1fr] rounded border border-black bg-green-50">
           <div className="flex max-w-fit border-r border-black">

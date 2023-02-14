@@ -68,7 +68,7 @@ const Home: NextPage = () => {
   });
   */
   return (
-    <Layout title="Home">
+    <Layout title="Jogadores">
       <section className="flex flex-col gap-4 p-2">
         <div className="flex flex-col gap-2">
           {players.map((player) => (

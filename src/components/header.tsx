@@ -35,7 +35,7 @@ const Header: NextPage = () => {
             </a>
           </span>
           <span className="px-2">
-            Intervalo dos Dados: 01/08/2022 - 13/02/2023
+            Intervalo dos Dados: 01/08/2022 - 14/02/2023 08:30 BRT
           </span>
         </div>
       </section>
