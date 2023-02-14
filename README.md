@@ -1,5 +1,9 @@
 # CS50x - eSports Page
-## Overview
+
+## About
+This is a webpage index of eSports teams and players, focused on brazilian players on CSGO. There you can find the main teams and the players in their rosters, as well as their stats. The data is obtained from the website [HLTV.org](https://hltv.org/).
+
+## Preview
 
 ### Screenshot
 
@@ -8,7 +12,6 @@
 ### Links
 
 - Live Site URL: [https://cs50xfinal.vercel.app/](https://cs50xfinal.vercel.app/)
-
 
 ## Built with
 
